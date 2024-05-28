@@ -6,7 +6,7 @@ pipeline {
                 dir('C:/Users/sdjhfoo/Downloads/Jenkins-20240526T025534Z-001/Jenkins/test.bat') {
                     /* execute commands in the scripts directory */
                 }
-            bat 'C:/Users/user/Desktop/Jenkins/test.bat'
+            bat 'C:/Users/sdjhfoo/Downloads/Jenkins-20240526T025534Z-001/Jenkins/test.bat'
             }
         }
         stage('Test') {
@@ -14,7 +14,7 @@ pipeline {
                 dir('C:/Users/sdjhfoo/Downloads/Jenkins-20240526T025534Z-001/Jenkins/test.bat') {
                     /* execute commands in the scripts directory */
                 }
-                bat 'C:/Users/user/Desktop/Jenkins/test.bat'
+                bat 'C:/Users/sdjhfoo/Downloads/Jenkins-20240526T025534Z-001/Jenkins/test.bat'
             }
         }
       stage('Package') {
@@ -22,7 +22,7 @@ pipeline {
                 dir('C:/Users/sdjhfoo/Downloads/Jenkins-20240526T025534Z-001/Jenkins/test.bat') {
                     /* execute commands in the scripts directory */
                 }
-                bat 'C:/Users/user/Desktop/Jenkins/test.bat'
+                bat 'C:/Users/sdjhfoo/Downloads/Jenkins-20240526T025534Z-001/Jenkins/test.bat'
             }
         }
         stage('Deploy') {
@@ -30,7 +30,7 @@ pipeline {
                 dir('C:/Users/sdjhfoo/Downloads/Jenkins-20240526T025534Z-001/Jenkins/test.bat') {
                     /* execute commands in the scripts directory */
                 }
-                bat 'C:/Jenkins/test.bat'
+                bat 'C:/Users/sdjhfoo/Downloads/Jenkins-20240526T025534Z-001/Jenkins/test.bat'
             }
         }
     }
